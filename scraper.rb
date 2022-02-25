@@ -4,7 +4,7 @@ require 'nokogiri'
 ROOT_URL = 'wsdot.com'
 URL_PATH = '/ferries/schedule/scheduledetailbyroute.aspx?route=ed-king'
 
-RESULT_FILE = '/mnt/c/Users/evanc/Dev/ferry-data/data/history.txt'
+RESULT_FILE = 'data/history.txt'
 
 uri = URI("https://#{ROOT_URL}#{URL_PATH}")
 
